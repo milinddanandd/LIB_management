@@ -1,0 +1,49 @@
+.hero {
+  background: url("pngtree-library-cartoon-banner-illustration-image_155272.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.borrow-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* styles.css */
+.library-button {
+  background-color: #222; /* Dark black background */
+  background-image: linear-gradient(to bottom, #222, #000); /* Gradient effect */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.library-button:hover {
+  background-color: #333; /* Darker black on hover */
+}

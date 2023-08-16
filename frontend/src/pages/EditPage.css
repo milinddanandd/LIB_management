@@ -1,0 +1,84 @@
+/* editpage.css */
+
+/* Container styling */
+.edit-page-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .MuiFormControl-root {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .MuiInputLabel-outlined {
+    transform: translate(14px, 14px) scale(1);
+  }
+  
+  .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, -6px) scale(0.75);
+  }
+  
+  .MuiOutlinedInput-input {
+    padding: 12px 14px;
+  }
+  
+  .MuiOutlinedInput-input::placeholder {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #007bff;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Toast notification styling */
+  .Toastify__toast-container {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .Toastify__toast {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #28a745;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #dc3545;
+  }
+  
